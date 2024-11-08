@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: linear-gradient(to bottom, aqua, lightgreen);
+}
+#main_container{
+    position: absolute;
+    font-family: 'poppins';
+    margin-top: 100px;
+    margin-left: 540px;
+    border: 2px solid black;
+    padding: 60px;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(to top right, lightblue, lightgreen);
+}
+#input_type{
+    color: blue;
+    font-family: 'poppins';
+}
+#main_input_box{
+    padding: 10px;
+    border: solid black;
+    border-radius: 5px;
+    background: linear-gradient(to right bottom, lightpink, rgb(255, 125, 255));
+    font-family: 'poppins';
+}
+.input_type_btn{
+    margin: 10px;
+    background: linear-gradient(to top right, lightpink, lightgreen);
+    font-family: 'poppins';
+    transform: background-color 0.25s;
+    border: solid black;
+    border-radius: 6px;
+    padding: 10px;
+}
+.convert_btn{
+    margin: 10px;
+    background: linear-gradient(to top right, lightblue, lightpink);
+    font-family: 'poppins';
+    transform: background-color 0.25s;
+    border: solid black;
+    border-radius: 6px;
+    padding: 10px;
+}
+.convert_btn:hover{
+    background: linear-gradient(to top right, lightpink, lightblue);
+    font-family: 'poppins';
+}
+.input_type_btn:hover{
+    background: linear-gradient(to top right, lightpink, lightblue);
+    font-family: 'poppins';
+}
+.output{
+    margin-left: 60px;
+    display: inline-flexbox;
+    font-family: 'poppins';
+    border: solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    background: linear-gradient(to bottom left, lightpink, lightblue);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main_container">
+        <label id="input_type">
+            <button id="cel" class="input_type_btn">celcius</button><button id="far" class="input_type_btn">farenheit</button><button id="kel" class="input_type_btn">kelvin</button>
+        </label>
+
+        <br>
+        <br>
+        
+        <div>
+            <form id="main_form">
+                <input type="number" id="main_input_box" name="main_input_box" placeholder="Enter your input" required>
+                <button type="submit" id="convert_btn" class="convert_btn">Convert</button>
+            </form>
+        </div>
+        <br>
+        <div>
+            <label>Celcius</label><p id="celcius" class="output"></p>
+            <label>Farenheit</label><p id="Farenheit" class="output"></p>
+            <label>Kelvin</label><p id="Kelvin" class="output"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
